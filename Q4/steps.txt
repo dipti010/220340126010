@@ -1,0 +1,16 @@
+1. Write a fact.py file for factorial
+2. Write a Dockerfile
+3. Run the command "sudo docker build -t python:code ." in the same location where your 
+    Dockerfile is present.
+4. Run the command "sudo docker images" to get the image Id
+5. To run the conatiner use the command "sudo docker run -it ImageID"
+    This will give a interactive mode of alpine. Now enter the desired number and get the output 
+6. To push the docker image into docker hub we need to create a link tag for the image
+7. Run the command "sudo docker tag python:code "
+8. The above command will cerate a new image with the respective tag 
+9. Now run the command "sudo docker push "
+10. If you get a resource access denied error that means some other account is logined to the current system
+    So, run "sudo docker logout" then
+    "sudo docker login" and proide your credentials 
+11. Again run the command shown in step 9, 
+12. Now you can see the docker image in the docker hub
