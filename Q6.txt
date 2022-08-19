@@ -1,0 +1,10 @@
+step 1: open account in git
+step 2: create repository and download using clone command
+step 3: git init .
+step 4: git add remote origin https://github.com/dipti010/220340126010.git
+step 5: git add .
+step 6: git commit -m "submit"
+step 7: git push
+
+url of repository
+https://github.com/dipti010/220340126010.git
